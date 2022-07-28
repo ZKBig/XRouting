@@ -6,7 +6,8 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 ## Table of Contents
 
 - [Installation](#installation)
-- [Training Models](#Training Models)
+- [Training](#Training)
+
 
 
 ## Installation
@@ -17,7 +18,7 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 4. The versions of xlrd and xlwt should be `1.2.0` for the sake of sucessful running.
 5. Note that after installing SUMO, it is prerequisite for users to modify `line 18` in `/rl/env/multi_agent_rerouting_env.py` and `line 21` in `/rl/env/dynamic_rerouting_env.py` for the sake of importing SUMO packages for SUMO and python connection.
 
-## Training Models
+## Training 
 In order to train the models including the proposed XRouting and the other two comparisms (normal PPO and DQN), users are highly recommended to run the `train.py` file in virtue of terminal by following the command:
 ```
 python train.py --run=XRouting
@@ -28,4 +29,4 @@ python train.py -h
 ```
 Note that users can visualize training performance by running `tensorboard --logdir [directory]` in a seperate terminal, where `[directory]` is defaulted to `\training_result\XRouting\PPO` for `XRouting` model, `\training_result\PPO\PPO` for `PPO` model and `\training_result\DQN\DQN` for `DQN` model.
 
-
+Another important training results are information of trips. More specifically, the basic trip information for each vehicle, including travelling time and travelling length, of each episode during training process is stored in the directory `\training_tripinfo\XRouting_training` for `XRouting` model, `\training_tripinfo\PPO_training` for `PPO` model and `\training_tripinfo\DQN_training` for `DQN` model. 
