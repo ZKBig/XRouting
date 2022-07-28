@@ -15,7 +15,12 @@ from gym.spaces.box import Box
 from gym.spaces.dict import Dict
 from gym.spaces.discrete import Discrete
 
+#--------------------------------------------------------------------------
+# change the following directory of 'tools' to your own local directory,
+# which is used for importing the packaegs for SUMO and python connection.
 sys.path.append('/usr/local/Cellar/sumo/1.10.0/share/sumo/tools')
+#--------------------------------------------------------------------------
+
 import traci
 import sumolib
 
