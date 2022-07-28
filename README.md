@@ -6,7 +6,9 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 ## Table of Contents
 
 - [Installation](#installation)
+- [Scenario](#Scenario)
 - [Training](#Training)
+
 
 
 
@@ -17,6 +19,11 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 3. It is equally important that the version of tensorflow should be `2.7+`.
 4. The versions of xlrd and xlwt should be `1.2.0` for the sake of sucessful running.
 5. Note that after installing SUMO, it is prerequisite for users to modify `line 18` in `/rl/env/multi_agent_rerouting_env.py` and `line 21` in `/rl/env/dynamic_rerouting_env.py` for the sake of importing SUMO packages for SUMO and python connection.
+
+## Scenario
+The training scenario is defined in the directory `\sumo_scenario\`, including the configuration files `scenario.sumocfg.xml` for training stage and `scenario_rl.sumocfg.xml` for evaluation stage, `scenario.net.xml` for traffic netwrok construction, `exercise.add.xml` for necessary components and `scenario.trips.xml` for determining traffic trips. Note that `edge_coordinates.xlsx` is stored in this directory as well, which is used to store the coordinates information of all edges. The training scenario is illstrated as:
+
+<img src="./images/network.png" width="300px"></img>
 
 ## Training 
 In order to train the models including the proposed XRouting and the other two comparisms (normal PPO and DQN), users are highly recommended to run the `train.py` file in virtue of terminal by following the command:
