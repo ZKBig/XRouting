@@ -18,3 +18,8 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 5. Note that after installing SUMO, it is prerequisite for users to modify `line 18` in `/rl/env/multi_agent_rerouting_env.py` and `line 21` in `/rl/env/dynamic_rerouting_env.py` for the sake of importing SUMO packages for SUMO and python connection.
 
 ## Training Models
+In order to train the models including the proposed XRouting and the other two comparisms (normal PPO and DQN), users are highly recommended to run the `train.py` file in virtue of terminal by following the command:
+```
+python train.py --run=XRouting
+```
+
