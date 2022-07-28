@@ -42,7 +42,7 @@ Another important training results are information of trips. More specifically, 
 
 ## Finetuning
 Though XRouting model for the aforementioned traffic scenario has been well tuned, users are still able to tune the hyperparameters used for training. More specifically, all the three models hyperparameters tuning can be implemented in the directory `\rl\model_config.py`. For example, the hyperparameters setting for XRouting is illustrated as:
-```
+```python
  def XRouting_config(self, env_name):
         """
         Configuration of XRouting actor
