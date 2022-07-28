@@ -75,7 +75,7 @@ Though XRouting model for the aforementioned traffic scenario has been well tune
             "num_cpus_per_worker": self.num_cpus_per_worker,
         }
 ```
-For the meanings and functions of each hyperparameters, it is strongly recommended that users can search them by following the url: https://docs.ray.io/en/latest/rllib/rllib-algorithms.html .
+For the meaning and function of each hyperparameter, it is strongly recommended that users can search them by following the url: https://docs.ray.io/en/latest/rllib/rllib-algorithms.html .
 
 
 ## Evaluation
