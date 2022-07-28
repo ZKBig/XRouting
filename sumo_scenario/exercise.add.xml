@@ -1,0 +1,176 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<!-- Node A2 detector -->
+<e1Detector id="B2A20" lane="B2A2_0" freq="1" pos="250" file="B2A2_0.out" friendlyPos="x"/>
+<e1Detector id="B2A21" lane="B2A2_1" freq="1" pos="250" file="B2A2_1.out" friendlyPos="x"/>
+
+<e1Detector id="A1A20" lane="A1A2_0" freq="1" pos="150" file="DA_0.out" friendlyPos="x"/>
+<e1Detector id="A1A21" lane="A1A2_1" freq="1" pos="150" file="DA_1.out" friendlyPos="x"/>
+
+<e1Detector id="left2A20" lane="left2A2_1" freq="1" pos="30" file="MA_1.out" friendlyPos="x"/>
+<e1Detector id="left2A21" lane="left2A2_0" freq="1" pos="30" file="MA_0.out" friendlyPos="x"/>
+
+<!-- Node D2 detector -->
+<e1Detector id="C2D20" lane="C2D2_0" freq="1" pos="260" file="C2D2_0.out" friendlyPos="x"/>
+<e1Detector id="C2D21" lane="C2D2_1" freq="1" pos="260" file="C2D2_1.out" friendlyPos="x"/>
+
+<e1Detector id="D1D20" lane="D1D2_0" freq="1" pos="153" file="D1D2_0.out" friendlyPos="x"/>
+<e1Detector id="D1D21" lane="D1D2_1" freq="1" pos="153" file="D1D2_1.out" friendlyPos="x"/>
+
+<!-- Node D1 detector -->
+<e1Detector id="D2D10" lane="D2D1_0" freq="1" pos="153" file="D2D1_0.out" friendlyPos="x"/>
+<e1Detector id="D2D11" lane="D2D1_1" freq="1" pos="153" file="D2D1_1.out" friendlyPos="x"/>
+
+<e1Detector id="C1D10" lane="C1D1_0" freq="1" pos="250" file="C1D1_0.out" friendlyPos="x"/>
+<e1Detector id="C1D11" lane="C1D1_1" freq="1" pos="250" file="C1D1_1.out" friendlyPos="x"/>
+
+<e1Detector id="D0D10" lane="D0D1_1" freq="1" pos="148" file="D0D1_1.out" friendlyPos="x"/>
+<e1Detector id="D0D11" lane="D0D1_0" freq="1" pos="148" file="D0D1_0.out" friendlyPos="x"/>
+
+<!-- Node D0 detector -->
+<e1Detector id="D1D00" lane="D1D0_0" freq="1" pos="153" file="D1D0_0.out" friendlyPos="x"/>
+<e1Detector id="D1D01" lane="D1D0_1" freq="1" pos="153" file="D1D0_1.out" friendlyPos="x"/>
+
+<e1Detector id="C0D00" lane="C0D0_0" freq="1" pos="256" file="C0D0_0.out" friendlyPos="x"/>
+<e1Detector id="C0D01" lane="C0D0_1" freq="1" pos="256" file="C0D0_1.out" friendlyPos="x"/>
+
+<e1Detector id="right0D00" lane="right0D0_1" freq="1" pos="62" file="right0D0_1.out" friendlyPos="x"/>
+<e1Detector id="right0D01" lane="right0D0_0" freq="1" pos="62" file="right0D0_0.out" friendlyPos="x"/>
+
+<!-- Node G detector
+<e1Detector id="FG0" lane="FG_0" freq="1" pos="255" file="FG_0.out" friendlyPos="x"/>
+<e1Detector id="FG1" lane="FG_1" freq="1" pos="255" file="FG_1.out" friendlyPos="x"/>
+
+<e1Detector id="D0G0" lane="D0G_0" freq="1" pos="145" file="D0G_0.out" friendlyPos="x"/>
+<e1Detector id="D0G1" lane="D0G_1" freq="1" pos="145" file="D0G_1.out" friendlyPos="x"/>
+
+<e1Detector id="right0G0" lane="right0G_1" freq="1" pos="52" file="right0G_1.out" friendlyPos="x"/>
+<e1Detector id="right0G1" lane="right0G_0" freq="1" pos="52" file="right0G_0.out" friendlyPos="x"/> -->
+
+<!-- Node F detector
+<e1Detector id="C0F0" lane="C0F_0" freq="1" pos="145" file="C0F_0.out" friendlyPos="x"/>
+<e1Detector id="C0F1" lane="C0F_1" freq="1" pos="145" file="C0F_1.out" friendlyPos="x"/>
+
+<e1Detector id="EF0" lane="EF_0" freq="1" pos="554" file="EF_0.out" friendlyPos="x"/>
+<e1Detector id="EF1" lane="EF_1" freq="1" pos="554" file="EF_1.out" friendlyPos="x"/>
+
+<e1Detector id="GF0" lane="GF_1" freq="1" pos="255" file="GF_1.out" friendlyPos="x"/>
+<e1Detector id="GF1" lane="GF_0" freq="1" pos="255" file="GF_0.out" friendlyPos="x"/> -->
+
+<!-- Node E detector
+<e1Detector id="A0E0" lane="A0E_0" freq="1" pos="149" file="A0E_0.out" friendlyPos="x"/>
+<e1Detector id="A0E1" lane="A0E_1" freq="1" pos="149" file="A0E_1.out" friendlyPos="x"/>
+
+<e1Detector id="FE0" lane="FE_0" freq="1" pos="554" file="FE_0.out" friendlyPos="x"/>
+<e1Detector id="FE1" lane="FE_1" freq="1" pos="554" file="FE_1.out" friendlyPos="x"/> -->
+
+<!-- Node B2 detector -->
+<e1Detector id="A2B20" lane="A2B2_0" freq="1" pos="250" file="AB0.out" friendlyPos="x"/>
+<e1Detector id="A2B21" lane="A2B2_1" freq="1" pos="250" file="AB1.out" friendlyPos="x"/>
+
+<e1Detector id="C2B20" lane="C2B2_0" freq="1" pos="250" file="CB0.out" friendlyPos="x"/>
+<e1Detector id="C2B21" lane="C2B2_1" freq="1" pos="250" file="CB1.out" friendlyPos="x"/>
+
+<e1Detector id="B1B20" lane="B1B2_0" freq="1" pos="150" file="EB0.out" friendlyPos="x"/>
+<e1Detector id="B1B21" lane="B1B2_1" freq="1" pos="150" file="EB1.out" friendlyPos="x"/>
+
+<!-- Node C2 detector -->
+<e1Detector id="B2C20" lane="B2C2_0" freq="1" pos="250" file="B2C20.out" friendlyPos="x"/>
+<e1Detector id="B2C21" lane="B2C2_1" freq="1" pos="250" file="B2C21.out" friendlyPos="x"/>
+
+<e1Detector id="C1C20" lane="C1C2_0" freq="1" pos="150" file="C1C20.out" friendlyPos="x"/>
+<e1Detector id="C1C21" lane="C1C2_1" freq="1" pos="150" file="C1C21.out" friendlyPos="x"/>
+
+<e1Detector id="D2C20" lane="D2C2_0" freq="1" pos="260" file="D2C20.out" friendlyPos="x"/>
+<e1Detector id="D2C21" lane="D2C2_1" freq="1" pos="260" file="D2C21.out" friendlyPos="x"/>
+
+<!-- Node A1 detector -->
+<e1Detector id="A2A10" lane="A2A1_0" freq="1" pos="150" file="A2A10.out" friendlyPos="x"/>
+<e1Detector id="A2A11" lane="A2A1_1" freq="1" pos="150" file="A2A11.out" friendlyPos="x"/>
+
+<e1Detector id="A0A10" lane="A0A1_0" freq="1" pos="150" file="A0A10.out" friendlyPos="x"/>
+<e1Detector id="A0A11" lane="A0A1_1" freq="1" pos="150" file="A0A11.out" friendlyPos="x"/>
+
+<e1Detector id="B1A10" lane="B1A1_0" freq="1" pos="250" file="B1A10.out" friendlyPos="x"/>
+<e1Detector id="B1A11" lane="B1A1_1" freq="1" pos="250" file="B1A11.out" friendlyPos="x"/>
+
+<!-- Node B1 detector -->
+<e1Detector id="B2B10" lane="B2B1_0" freq="1" pos="150" file="B2B10.out" friendlyPos="x"/>
+<e1Detector id="B2B11" lane="B2B1_1" freq="1" pos="150" file="B2B11.out" friendlyPos="x"/>
+
+<e1Detector id="A1B10" lane="A1B1_0" freq="1" pos="250" file="A1B10.out" friendlyPos="x"/>
+<e1Detector id="A1B11" lane="A1B1_1" freq="1" pos="250" file="A1B11.out" friendlyPos="x"/>
+
+<e1Detector id="C1B10" lane="C1B1_0" freq="1" pos="250" file="C1B10.out" friendlyPos="x"/>
+<e1Detector id="C1B11" lane="C1B1_1" freq="1" pos="250" file="C1B11.out" friendlyPos="x"/>
+
+<e1Detector id="B0B10" lane="B0B1_0" freq="1" pos="150" file="B0B10.out" friendlyPos="x"/>
+<e1Detector id="B0B11" lane="B0B1_1" freq="1" pos="150" file="B0B11.out" friendlyPos="x"/>
+
+<!-- Node C1 detector -->
+<e1Detector id="B1C10" lane="B1C1_0" freq="1" pos="250" file="B1C10.out" friendlyPos="x"/>
+<e1Detector id="B1C11" lane="B1C1_1" freq="1" pos="250" file="B1C11.out" friendlyPos="x"/>
+
+<e1Detector id="C2C10" lane="C2C1_0" freq="1" pos="150" file="C2C10.out" friendlyPos="x"/>
+<e1Detector id="C2C11" lane="C2C1_1" freq="1" pos="150" file="C2C11.out" friendlyPos="x"/>
+
+<e1Detector id="C0C10" lane="C0C1_0" freq="1" pos="150" file="C0C10.out" friendlyPos="x"/>
+<e1Detector id="C0C11" lane="C0C1_1" freq="1" pos="150" file="C0C11.out" friendlyPos="x"/>
+
+<e1Detector id="D1C10" lane="D1C1_0" freq="1" pos="250" file="D1C10.out" friendlyPos="x"/>
+<e1Detector id="D1C11" lane="D1C1_1" freq="1" pos="250" file="D1C11.out" friendlyPos="x"/>
+
+<!-- Node A0 detector -->
+<e1Detector id="A1A00" lane="A1A0_0" freq="1" pos="150" file="A1A0_0.out" friendlyPos="x"/>
+<e1Detector id="A1A01" lane="A1A0_1" freq="1" pos="150" file="A1A0_1.out" friendlyPos="x"/>
+
+<e1Detector id="B0A00" lane="B0A0_0" freq="1" pos="250" file="B0A0_0.out" friendlyPos="x"/>
+<e1Detector id="B0A01" lane="B0A0_1" freq="1" pos="250" file="B0A0_1.out" friendlyPos="x"/>
+
+<!-- Node B0 detector -->
+<e1Detector id="A0B00" lane="A0B0_0" freq="1" pos="250" file="A0B00.out" friendlyPos="x"/>
+<e1Detector id="A0B01" lane="A0B0_1" freq="1" pos="250" file="A0B01.out" friendlyPos="x"/>
+
+<e1Detector id="C0B00" lane="C0B0_0" freq="1" pos="250" file="C0B00.out" friendlyPos="x"/>
+<e1Detector id="C0B01" lane="C0B0_1" freq="1" pos="250" file="C0B01.out" friendlyPos="x"/>
+
+<e1Detector id="B1B00" lane="B1B0_0" freq="1" pos="150" file="B1B00.out" friendlyPos="x"/>
+<e1Detector id="B1B01" lane="B1B0_1" freq="1" pos="150" file="B1B01.out" friendlyPos="x"/>
+
+<!-- Node C0 detector -->
+<e1Detector id="B0C00" lane="B0C0_0" freq="1" pos="250" file="B0C00.out" friendlyPos="x"/>
+<e1Detector id="B0C01" lane="B0C0_1" freq="1" pos="250" file="B0C01.out" friendlyPos="x"/>
+
+<e1Detector id="C1C00" lane="C1C0_0" freq="1" pos="150" file="C1C00.out" friendlyPos="x"/>
+<e1Detector id="C1C01" lane="C1C0_1" freq="1" pos="150" file="C1C01.out" friendlyPos="x"/>
+
+<e1Detector id="D0C00" lane="D0C0_0" freq="1" pos="250" file="D0C00.out" friendlyPos="x"/>
+<e1Detector id="D0C01" lane="D0C0_1" freq="1" pos="250" file="D0C01.out" friendlyPos="x"/>
+
+<!-- Node right0 detector-->
+<e1Detector id="D0right00" lane="D0right0_0" freq="1" pos="62" file="D0right00.out" friendlyPos="x"/>
+<e1Detector id="D0right01" lane="D0right0_1" freq="1" pos="62" file="D0right01.out" friendlyPos="x"/>
+
+<!-- custom vehicle type -->
+<vType id="human_car" vClass="passenger" maxSpeed="20.0" minGap="2.5" length="5.0" sigma="0.5" decel="4.5" accel="2.6" color="1,1,0"/>
+<vType id="human_truck" vClass="truck" maxSpeed="13.0" minGap="2.5" length="8.0" sigma="0.5" decel="4.0" accel="1.3" color="0,1,0"/>
+<vType id="human_bus" vClass="bus" maxSpeed="8.5" minGap="2.5" length="12.0" sigma="0.5" decel="4.0" accel="1.2" color="0,0,1"/>
+<vType id="rl_car" vClass="passenger" maxSpeed="20.0" minGap="2" length="5.0" sigma="0.5" decel="5.0" accel="2.0" color="1,0,0"/>
+
+<!-- route -->
+<route id="rl_route" edges="right0D0 A2left2"/>
+
+<edgeData id="edge_data_1" file="/Users/wangzheng/Desktop/01/sumo/ITSC_experiment1/sumo_scenario6/edge.xml"/>
+<!-- defien the edge closing  -->
+<!-- <rerouter id="reroute_1" edges="A2B2 C2B2 B1B2" probability="1">
+    <interval begin = "100" end="250">
+        <closingReroute id="B2B1" disallow="passenger truck bus"/>
+    </interval>
+</rerouter>
+
+<rerouter id="reroute_2" edges="A1B1 B2B1 B0B1 C1B1" probability="1">
+    <interval begin = "100" end="250">
+        <closingReroute id="B1B2" disallow="passenger truck bus"/>
+    </interval>
+</rerouter> -->
+
+</additional>
