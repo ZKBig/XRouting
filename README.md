@@ -23,7 +23,7 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 ## Scenario
 The training scenario is defined in the directory `\sumo_scenario\`, including the configuration files `scenario.sumocfg.xml` for training stage and `scenario_rl.sumocfg.xml` for evaluation stage, `scenario.net.xml` for traffic netwrok construction, `exercise.add.xml` for necessary components and `scenario.trips.xml` for determining traffic trips. Note that `edge_coordinates.xlsx` is stored in this directory as well, which is used to store the coordinates information of all edges. The training scenario is illstrated as:
 
-<img src="./images/network.png" width="300px"></img>
+<img src="./images/network.png" width="500px" height="300px"></img>
 
 ## Training 
 In order to train the models including the proposed XRouting and the other two comparisms (normal PPO and DQN), users are highly recommended to run the `train.py` file in virtue of terminal by following the command:
