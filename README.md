@@ -8,6 +8,7 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 - [Installation](#installation)
 - [Scenario](#Scenario)
 - [Training](#Training)
+- [FineTuning](#FineTuning)
 - [Evaluation](#Evaluation)
 
 
@@ -39,9 +40,18 @@ Note that users can visualize training performance by running `tensorboard --log
 
 Another important training results are information of trips. More specifically, the basic trip information for each vehicle, including travelling time and travelling length, of each episode during training process is stored in the directory `\training_tripinfo\XRouting_training` for `XRouting` model, `\training_tripinfo\PPO_training` for `PPO` model and `\training_tripinfo\DQN_training` for `DQN` model. 
 
+## Finetuning
+Though XRouting model for the aforementioned traffic scenario has been well tuned, users are still able to tune the hyperparameters used for training. More specifically, all the three models hyperparameters tuning can be implemented in the directory `\rl\model_config.py`. For the meanings and functions of each hyperparameters, it is strongly recommended that users can search them by following url: https://docs.ray.io/en/latest/rllib/rllib-algorithms.html .
+
+
 ## Evaluation
 After obtaining the trained models, users can evaluate the models in multi-agent scenario by using the following command
 ```
 python evaluation_multi_agent.py --run=XRouting
 ```
 Note that the four well trained models have already been stored in the directory `/trained_models/XRouting/`, and the default model used is `/trained_models/XRouting/checkpoint_1/checkpoint-50`. Userd can also utilize the specific trained model in virtue of the argument `--checkpoint-dir`.
+All the evaluation results, that is, the excel files which contains the input observations and the corresponding actions of all the steps that rl vehicles take, are stored in the directory `/evaluation_results/`. 
+
+Furthermore, in the evaluation stage, SUMO_GUI is used for visulization because of one episode.
+
+
