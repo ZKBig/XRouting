@@ -41,7 +41,41 @@ Note that users can visualize training performance by running `tensorboard --log
 Another important training results are information of trips. More specifically, the basic trip information for each vehicle, including travelling time and travelling length, of each episode during training process is stored in the directory `\training_tripinfo\XRouting_training` for `XRouting` model, `\training_tripinfo\PPO_training` for `PPO` model and `\training_tripinfo\DQN_training` for `DQN` model. 
 
 ## Finetuning
-Though XRouting model for the aforementioned traffic scenario has been well tuned, users are still able to tune the hyperparameters used for training. More specifically, all the three models hyperparameters tuning can be implemented in the directory `\rl\model_config.py`. For the meanings and functions of each hyperparameters, it is strongly recommended that users can search them by following url: https://docs.ray.io/en/latest/rllib/rllib-algorithms.html .
+Though XRouting model for the aforementioned traffic scenario has been well tuned, users are still able to tune the hyperparameters used for training. More specifically, all the three models hyperparameters tuning can be implemented in the directory `\rl\model_config.py`. For example, the hyperparameters setting for XRouting is illustrated as:
+```
+ def XRouting_config(self, env_name):
+        """
+        Configuration of XRouting actor
+        """
+        ModelCatalog.register_custom_model("XRouting_model", XRoutingModel)
+
+        return {
+            "env": env_name,
+            "num_gpus": self.num_gpus,
+            "num_envs_per_worker": 1,
+            "gamma": 0.99,
+            "train_batch_size": 4096,
+            "sgd_minibatch_size": 256,
+            "lr": 4e-4,
+            "vf_loss_coeff": 1e-5,
+            "model": {
+                "custom_model": "XRouting_model",
+                "custom_model_config": {
+                    "attention_dim": 64,
+                    "num_heads": 4,
+                    "head_dim": 32,
+                    "mlp_dim": 100,
+                    "observation_dim": (38, 6),
+                    "pos_encoding_dim": (38, 1),
+                }
+            },
+            "entropy_coeff": 0.01,
+            "num_sgd_iter": 4,
+            "framework": "tf",
+            "num_cpus_per_worker": self.num_cpus_per_worker,
+        }
+```
+For the meanings and functions of each hyperparameters, it is strongly recommended that users can search them by following the url: https://docs.ray.io/en/latest/rllib/rllib-algorithms.html .
 
 
 ## Evaluation
