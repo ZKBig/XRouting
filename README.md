@@ -8,6 +8,7 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 - [Installation](#installation)
 - [Scenario](#Scenario)
 - [Training](#Training)
+- [Evaluation](#Evaluation)
 
 
 
@@ -37,3 +38,10 @@ python train.py -h
 Note that users can visualize training performance by running `tensorboard --logdir [directory]` in a seperate terminal, where `[directory]` is defaulted to `\training_result\XRouting\PPO` for `XRouting` model, `\training_result\PPO\PPO` for `PPO` model and `\training_result\DQN\DQN` for `DQN` model.
 
 Another important training results are information of trips. More specifically, the basic trip information for each vehicle, including travelling time and travelling length, of each episode during training process is stored in the directory `\training_tripinfo\XRouting_training` for `XRouting` model, `\training_tripinfo\PPO_training` for `PPO` model and `\training_tripinfo\DQN_training` for `DQN` model. 
+
+## Evaluation
+After obtaining the trained models, users can evaluate the models in multi-agent scenario by using the following command
+```
+python evaluation_multi_agent.py --run=XRouting
+```
+Note that the four well trained models have already been stored in the directory `/trained_models/XRouting/`, and the default model used is `/trained_models/XRouting/checkpoint_1/checkpoint-50`. Userd can also utilize the specific trained model in virtue of the argument `--checkpoint-dir`.
