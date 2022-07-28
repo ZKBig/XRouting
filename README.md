@@ -6,6 +6,7 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 ## Table of Contents
 
 - [Installation](#installation)
+- [Training Models](#Training Models)
 
 
 ## Installation
@@ -16,3 +17,4 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 4. The versions of xlrd and xlwt should be `1.2.0` for the sake of sucessful running.
 5. Note that after installing SUMO, it is prerequisite for users to modify `line 18` in `/rl/env/multi_agent_rerouting_env.py` and `line 21` in `/rl/env/dynamic_rerouting_env.py` for the sake of importing SUMO packages for SUMO and python connection.
 
+## Training Models
