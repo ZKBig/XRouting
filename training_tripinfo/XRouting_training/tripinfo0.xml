@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-28 17:14:48 by Eclipse SUMO sumo Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/wangzheng/Desktop/01/sumo/IEEE%20ISC2%202022/sumo_scenario/scenario.net.xml"/>
+        <route-files value="/Users/wangzheng/Desktop/01/sumo/IEEE%20ISC2%202022/sumo_scenario/scenario.trips.xml"/>
+        <additional-files value="/Users/wangzheng/Desktop/01/sumo/IEEE%20ISC2%202022/sumo_scenario/exercise.add.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="/Users/wangzheng/Desktop/01/sumo/IEEE%20ISC2%202022/sumo_scenario/emission.xml"/>
+        <tripinfo-output value="/Users/wangzheng/Desktop/01/sumo/IEEE%20ISC2%202022/training_tripinfo/XRouting_training/tripinfo0.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="64893"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>
