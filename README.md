@@ -21,6 +21,7 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 3. It is equally important that the version of tensorflow should be `2.7+`.
 4. The versions of xlrd and xlwt should be `1.2.0` for the sake of sucessful running.
 5. Note that after installing SUMO, it is prerequisite for users to modify `line 18` in `/rl/env/multi_agent_rerouting_env.py` and `line 21` in `/rl/env/dynamic_rerouting_env.py` for the sake of importing SUMO packages for SUMO and python connection.
+6. Hit: All the training and evaluation processes should be conducted under the downloaded repository directory. 
 
 ## Scenario
 The training scenario is defined in the directory `\sumo_scenario\`, including the configuration files `scenario.sumocfg.xml` for training stage and `scenario_rl.sumocfg.xml` for evaluation stage, `scenario.net.xml` for traffic netwrok construction, `exercise.add.xml` for necessary components and `scenario.trips.xml` for determining traffic trips. Note that `edge_coordinates.xlsx` is stored in this directory as well, which is used to store the coordinates information of all edges. The training scenario is illstrated as:
