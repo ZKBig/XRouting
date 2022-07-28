@@ -53,7 +53,6 @@ class DQN(DistributionalQTFModel):
     def get_q_value(self):
         """
         calculate q value according to the following equation:
-
                                 q_value = v_value + advantage
         :return: q value with shape [batch, 1]
         """
