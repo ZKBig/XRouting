@@ -22,4 +22,8 @@ In order to train the models including the proposed XRouting and the other two c
 ```
 python train.py --run=XRouting
 ```
+Note that input argument `--run` is used to indicate the model to be trained. If users desire to train normal PPO and DQN, the value of `--run` should be set as `PPO` and `DQN` respectively. The default value is `XRouting`. Moreover, there are other argements that could be claimed by users, which is listed as follows:
+```
+
+```
 
