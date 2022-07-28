@@ -14,4 +14,4 @@ Installation instructions are provided for MacOS Monterey 12.4. In order to repr
 2. Users can install Ray/RLlib by following https://docs.ray.io/en/latest/ray-overview/installation.html . Note that Installing Ray with Anaconda' is highly suggested.
 3. It is equally important that the version of tensorflow should be 2.7+.
 4. The versions of xlrd and xlwt should be 1.2.0 for the sake of sucessful running.
-5. Note that after installing SUMO, it is prerequisite for users to modify the 
+5. Note that after installing SUMO, it is prerequisite for users to modify line 18 in /rl/env/multi_agent_rerouting_env.py and line 21 in /rl/env/dynamic_rerouting_env.py. 
