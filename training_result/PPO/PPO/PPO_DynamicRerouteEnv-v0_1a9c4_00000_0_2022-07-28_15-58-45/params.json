@@ -1,0 +1,22 @@
+{
+  "entropy_coeff": 0.01,
+  "env": "DynamicRerouteEnv-v0",
+  "framework": "tf",
+  "gamma": 0.99,
+  "lr": 0.0004,
+  "model": {
+    "custom_model": "PPO_model",
+    "custom_model_config": {
+      "true_obs_shape": [
+        80
+      ]
+    }
+  },
+  "num_cpus_per_worker": 1,
+  "num_envs_per_worker": 1,
+  "num_gpus": 0,
+  "num_sgd_iter": 5,
+  "sgd_minibatch_size": 256,
+  "train_batch_size": 4096,
+  "vf_loss_coeff": 1e-05
+}

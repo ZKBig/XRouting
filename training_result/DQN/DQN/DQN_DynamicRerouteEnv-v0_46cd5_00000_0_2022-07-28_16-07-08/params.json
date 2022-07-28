@@ -1,0 +1,40 @@
+{
+  "double_q": true,
+  "dueling": false,
+  "env": "DynamicRerouteEnv-v0",
+  "exploration_config": {
+    "epsilon_timesteps": 1000,
+    "final_epsilon": 0.05,
+    "initial_epsilon": 1.0,
+    "type": "EpsilonGreedy"
+  },
+  "final_prioritized_replay_beta": 1.0,
+  "framework": "tf",
+  "hiddens": [],
+  "learning_starts": 1000,
+  "lr": 0.003,
+  "min_iter_time_s": 1,
+  "model": {
+    "custom_model": "DQN_model",
+    "custom_model_config": {
+      "true_obs_shape": [
+        80
+      ]
+    }
+  },
+  "n_step": 1,
+  "noisy": false,
+  "num_cpus_per_worker": 1,
+  "num_envs_per_worker": 1,
+  "num_gpus": 0,
+  "prioritized_replay": true,
+  "prioritized_replay_alpha": 0.6,
+  "prioritized_replay_beta": 0.4,
+  "prioritized_replay_beta_annealing_timesteps": 200000,
+  "replay_buffer_config": {
+    "capacity": 10000
+  },
+  "target_network_update_freq": 3000,
+  "timesteps_per_iteration": 4096,
+  "train_batch_size": 256
+}

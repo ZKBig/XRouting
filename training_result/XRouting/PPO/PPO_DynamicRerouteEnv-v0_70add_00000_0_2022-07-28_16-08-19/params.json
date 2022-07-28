@@ -1,0 +1,31 @@
+{
+  "entropy_coeff": 0.01,
+  "env": "DynamicRerouteEnv-v0",
+  "framework": "tf",
+  "gamma": 0.99,
+  "lr": 0.0004,
+  "model": {
+    "custom_model": "XRouting_model",
+    "custom_model_config": {
+      "attention_dim": 64,
+      "head_dim": 32,
+      "mlp_dim": 100,
+      "num_heads": 4,
+      "observation_dim": [
+        38,
+        6
+      ],
+      "pos_encoding_dim": [
+        38,
+        1
+      ]
+    }
+  },
+  "num_cpus_per_worker": 1,
+  "num_envs_per_worker": 1,
+  "num_gpus": 0,
+  "num_sgd_iter": 4,
+  "sgd_minibatch_size": 256,
+  "train_batch_size": 4096,
+  "vf_loss_coeff": 1e-05
+}
