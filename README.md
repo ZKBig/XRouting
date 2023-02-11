@@ -4,7 +4,7 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 <img src="./images/XRouting_structure.png" width="500px"></img>
 
 ## Table of Contents
-
+- [Citation](#Citation)
 - [Installation](#installation)
 - [Scenario](#Scenario)
 - [Training](#Training)
@@ -12,7 +12,19 @@ XRouting: An explainable vehicle rerouting system based on reinforcement learnin
 - [Evaluation](#Evaluation)
 
 
-
+## Citation
+If you use our code, please consider cite the following: Z. Wang and S. Wang, "XRouting: Explainable Vehicle Rerouting for Urban Road Congestion Avoidance using Deep Reinforcement Learning," 2022 IEEE International Smart Cities Conference (ISC2), Pafos, Cyprus, 2022, pp. 1-7, doi: 10.1109/ISC255366.2022.9922404.
+'''
+@INPROCEEDINGS{9922404,
+  author={Wang, Zheng and Wang, Shen},
+  booktitle={2022 IEEE International Smart Cities Conference (ISC2)}, 
+  title={XRouting: Explainable Vehicle Rerouting for Urban Road Congestion Avoidance using Deep Reinforcement Learning}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-7},
+  doi={10.1109/ISC255366.2022.9922404}}
+'''
 
 ## Installation
 Installation instructions are provided for MacOS Monterey 12.4. In order to reproduce the results, the traffic scenario simulator `SUMO with version 1.13.0` and the reinforcement learning training tool `RLlib with version 1.12.0` should be installed. Besides, the version of python is highly recommended to be 3.8. The installation steps are elaborated as follows.
